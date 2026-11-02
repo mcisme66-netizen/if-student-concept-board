@@ -30,6 +30,9 @@ Run this before delivering a board.
 
 ## Board
 
+- [ ] The chosen layout family matches the project's proof burden.
+- [ ] One hero/action dominates; supporting modules do not compete equally.
+- [ ] Visual explanation occupies roughly 60–75% of the board.
 - [ ] Title and scenario dominate; microtext does not.
 - [ ] English copy is concise and grammatical.
 - [ ] Steps use verbs and follow a real sequence.
@@ -37,6 +40,7 @@ Run this before delivering a board.
 - [ ] Exactly three values summarize the project.
 - [ ] Footer contains only Category, Concept, Target, and Status unless the user supplies entrant information.
 - [ ] No iF logo, fake award, fake university, fake email, QR code, watermark, or invented statistic.
+- [ ] Evidence modules use supplied research; otherwise they are explicitly labeled as a validation plan.
 
 ## Image generation
 
@@ -49,4 +53,3 @@ Run this before delivering a board.
 ## Prototype handoff
 
 End the explanation with two or three highest-risk items to validate next. Examples include mechanism life, material cycles, accessibility standards, water/heat pressure, cleaning, network failure, or operator responsibility.
-
