@@ -4,14 +4,18 @@ Use this reference for the final presentation board or a board revision.
 
 ## Visual grammar
 
-Default to a horizontal 3:2 board unless the user specifies another format.
+Default to a horizontal 3:2 board unless the user specifies another format. Select one layout family from [layout-pattern-library.md](layout-pattern-library.md) before writing the prompt.
 
-- **Top 45–55%:** title, short problem/solution, product hero, and one dominant human use scene.
-- **Lower 35–45%:** three to five numbered steps, components, state comparison, maintenance or service loop.
-- **Bottom 5–8%:** four-column information strip: Category, Concept, Target, Status.
-- White or warm-white field, one primary accent, one warning/secondary accent, charcoal text.
-- Large title and scenario first; process second; components third; values last.
-- Use leader lines only for information that changes understanding.
+Across layout families:
+
+- Reserve 60–75% of the board for visual explanation and 25–40% for text.
+- Give one hero image or use scene 35–55% of the active canvas; do not distribute emphasis evenly.
+- Use two to four secondary modules: mechanism, sequence, components, evidence, maintenance, or material loop.
+- Keep the bottom 5–8% as a quiet information strip: Category, Concept, Target, Status.
+- Use a white or warm-white field and one main accent. A full-width red band is optional legacy styling, not an iF requirement.
+- Make the reading order visible at thumbnail size: title and proposition first, hero/action second, proof third, details last.
+- Use line drawings for secondary explanation and photorealistic rendering for the hero. Mixing modes is useful when hierarchy is clear.
+- Use leader lines only where they explain mechanism, assembly, or state change.
 
 ## Board copy budget
 
@@ -23,6 +27,8 @@ Default to a horizontal 3:2 board unless the user specifies another format.
 - Components: 4–6 short labels.
 - Values: exactly three, each with a title and one line.
 - Footer: Category / Concept / Target / Status.
+
+Target 70–140 English words outside labels and footer. A board that needs long paragraphs probably lacks visual proof or has not selected its core claim.
 
 Prefer mechanism, maintenance, and system ownership over inspiration statements. Do not describe visible aesthetics in the body copy.
 
@@ -44,7 +50,7 @@ Asset type: complete horizontal 3:2 iF-style student design award board
 Primary request: Design and present <NAME>, <one-line proposition>.
 
 Input images:
-- Image 1... are layout references only. Learn white field, dominant scenario,
+- Image 1... are labout references only. Learn white field, dominant scenario,
   product hero, concise steps, callouts and footer. Do not copy products,
   logos, people, watermarks or exact compositions.
 
@@ -59,10 +65,11 @@ Interaction:
 
 Layout:
 - <palette and top/bottom bands>
-- upper-left title and concise statement
-- center-left faithful product hero
-- upper-right dominant realistic use scene
-- lower section numbered steps, components, service loop and three values
+- layout family: <Hero + mechanism / Scenario + intervention /
+  Product-service system / Material + lifecycle / Wearable + validation>
+- one dominant proof image: <hero, use scene, material family, or wearing view>
+- two or three supporting modules chosen from mechanism, sequence,
+  components, evidence/validation plan, maintenance, and lifecycle
 - bottom four-column information strip
 
 Style:
@@ -109,6 +116,10 @@ Generate a product master first when the concept has:
 
 Generate the board directly when the system is architecturally simple and the prompt can define all components unambiguously. If the first board shows inconsistent geometry, do not keep rewording the whole prompt: generate a master and use it as the exact product reference.
 
+## Evidence rule
+
+Use evidence modules only when the project has evidence. Prototype photos, user quotes, charts, test results, and clinical or environmental claims must come from supplied or completed research. Otherwise label the module `VALIDATION PLAN`, show what will be tested, and avoid fabricated numbers or photographs that imply a completed study.
+
 ## Saving
 
 Use a project folder such as:
@@ -120,4 +131,3 @@ Use a project folder such as:
 ```
 
 Never overwrite a prior version unless the user explicitly requests replacement.
-
