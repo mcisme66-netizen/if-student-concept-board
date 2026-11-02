@@ -39,6 +39,8 @@ Do not stop at a slogan, isolated object, or attractive rendering. The concept m
 
 Read [board-generation.md](references/board-generation.md) whenever generating or revising a board. It contains the layout grammar, copy limits, and prompt template.
 
+When the user supplies award-board references or the project could support several visual narratives, also read [layout-pattern-library.md](references/layout-pattern-library.md). Choose a layout family from the project's proof burden; do not default every concept to the same hero-plus-steps composition.
+
 For the reasoning path that produced TACTILE CITY, read [tactile-city-case-study.md](references/tactile-city-case-study.md). Use it as a method example, not as a subject constraint.
 
 ## Non-negotiable constraints
