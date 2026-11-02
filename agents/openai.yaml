@@ -1,0 +1,8 @@
+interface:
+  display_name: "iF Student Concept Board"
+  short_description: "Research, develop, and render iF student concepts"
+  brand_color: "#B84A32"
+  default_prompt: "Use $if-student-concept-board to develop a distinctive iF student concept and generate its competition board."
+policy:
+  allow_implicit_invocation: true
+
